@@ -1,0 +1,50 @@
+h1{
+    font-size: 35px;
+    color:blue;
+    text-align: center;
+}
+h2{
+    font-size: 35px;
+    color:red;
+    text-align: center;
+}
+p{
+    font-size: 25px;
+    color:brown;
+    text-justify: auto;
+    text-align: center;
+}
+a{
+    color:rgb(0, 170, 255);
+}
+a:hover{
+    color:red;
+}
+img{
+    
+    height: 550px;
+    border: 3px solid black;
+    margin: 7px;
+    padding: 0%;
+    
+}
+header{
+    background-color: rgb(255, 255, 118);
+}
+main{
+    background-color: rgb(255, 255, 178);
+}
+footer{
+    background-color: rgb(255, 180, 113);
+}
+body{
+    background-color: beige;
+}
+.flexbox {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
