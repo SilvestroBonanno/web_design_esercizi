@@ -1,0 +1,15 @@
+ header{
+    color:black;
+ }
+ 
+ @media screen and(max-width: 600px){
+    header{
+    color: green;
+    }
+    }
+    
+    @media screen and (max-width: 800px){
+    img{
+    width: 49%;
+    }
+    }
