@@ -1,0 +1,26 @@
+.trans1{
+  width: 200px;
+  height: 100px;
+  background-color: magenta;
+  transition: transform 0.3s ease;
+}
+.trans1:hover {
+    transform: translateX(50px);
+  }
+  .trans2{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    animation: color-change 1.5s infinite;
+  }
+  @keyframes color-change{
+    0% {
+      background-color: blue;
+    }
+    50% {
+      background-color: rgb(191, 0, 255);
+    }
+    100% {
+      background-color: blue;
+    }
+  }
