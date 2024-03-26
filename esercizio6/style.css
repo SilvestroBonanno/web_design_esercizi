@@ -1,0 +1,30 @@
+.absolute{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 200px;
+    height: 100px;
+    background-color: red;
+
+}
+
+.fixed{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 200px;
+    height: 100px;
+    background-color: aquamarine;
+
+}
+.contenitore{
+    width:500px;
+    height:1000;
+}
+.sticky{
+    position: sticky;
+    top:50px;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(30, 255, 0);
+}
