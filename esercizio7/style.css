@@ -2,7 +2,7 @@
   width: 200px;
   height: 100px;
   background-color: magenta;
-  transition: transform 0.3s ease;
+  transition: transform 0.6s ease;
 }
 .trans1:hover {
     transform: translateX(50px);
@@ -18,7 +18,7 @@
       background-color: blue;
     }
     50% {
-      background-color: rgb(191, 0, 255);
+      background-color: yellow;
     }
     100% {
       background-color: blue;
