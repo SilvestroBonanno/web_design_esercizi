@@ -10,6 +10,8 @@ header {
   body{
     background-color: rgb(226, 241, 254);
   }
+
+  
   
   h1 {
     font-weight: 500;
@@ -56,8 +58,10 @@ header {
   }
   
   #image {
+    text-align: center;
     max-width: 100%;
     height: auto;
+    
   }
   
   #tribute-info {
